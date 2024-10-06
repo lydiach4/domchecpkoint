@@ -6,10 +6,10 @@ black.onclick = function(){
     carre.style.backgroundColor = 'black' ;
 }
 random.onclick = function(){
-     let change = Math.random()*255;
-     let change1 = Math.random()*255;
-     let change2 = Math.random()*255;
-    carre.style.backgroundColor = "rgb( "  + change + " , " + change1 + " , " + change2 + " ) ";
+     let red = Math.floor( Math.random()*255;)
+     let green = Math.floor( Math.random()*255;)
+     let bleu = Math.floor(Math.random()*255;)
+    carre.style.backgroundColor = "rgb( "  + red + " , " + green + " , " + bleu + " ) ";
 }
 range.oninput = function(){
     
